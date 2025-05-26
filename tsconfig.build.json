@@ -32,9 +32,9 @@
   },
   "include": ["app/**/*"],
   "exclude": [
-    "page.tsx",
-    "layout.tsx",
-    "global.tsx",
+    "app/page.tsx",
+    "app/layout.tsx",
+    "app/global.css",
     "public/**/*",
     "dist",
     "node_modules",
