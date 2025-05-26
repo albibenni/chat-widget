@@ -1,2 +1,3 @@
-export { default as ChatWidget } from "./ChatWidget";
-export { ChatProvider } from "./ChatContext";
+export { default as ChatWidget } from "./ChatWidget.js";
+export { ChatProvider } from "./ChatContext.js";
+

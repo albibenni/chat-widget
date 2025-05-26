@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "An embeddable chat widget for websites following Eloquent AI style",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
@@ -14,7 +14,7 @@
     "lint": "next lint",
     "indent:check": "prettier . --check",
     "indent:write": "prettier . --write",
-    "prepare": "npm run build"
+    "prepare": "npm run build:lib"
   },
   "keywords": [
     "chat",
